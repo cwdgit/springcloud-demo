@@ -91,7 +91,8 @@ server.session.cookie.name: config-service
 ```yaml
 SPRING_PROFILES_ACTIVE=native
 ```
-
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/config-service1.png)
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/config-service2.png)
 ### Discovery Service(注册中心)
 
 bootstrap.yml

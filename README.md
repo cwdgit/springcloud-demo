@@ -20,7 +20,7 @@ https://github.com/cattles/spring-cloud-event-sourcing-example
 - Online Store Web
 - Shopping Cart Service
 
-
+![Online Store Architecture Diagram](http://i.imgur.com/PBCVt90.png)
 
 选取下列服务来部署demo
 

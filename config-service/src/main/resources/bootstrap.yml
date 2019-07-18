@@ -1,0 +1,31 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:/app/config
+
+---
+server:
+  port: 8888
+spring:
+  profiles: docker
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://${GIT_HOST}/root/config-server
+          username: root
+          password: alauda1234
+
+server.session.cookie.name: config-service
+
+

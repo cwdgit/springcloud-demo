@@ -1,0 +1,14 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: discovery-service
+
+---
+spring:
+  profiles: docker
+  cloud:
+    config:
+      uri: http://config-service:8888
+
+server.session.cookie.name: discovery-service

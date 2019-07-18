@@ -121,7 +121,7 @@ server.session.cookie.name: discovery-service
 ```yaml
 SPRING_PROFILES_ACTIVE=docker
 ```
-
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/discovery.png)
 ### Edge Service(服务网关)
 
 bootstrap.yml
@@ -402,3 +402,6 @@ logging:
 server.session.cookie.name: online-store-web
 ```
 
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/user登录前.png)
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/登录中.png)
+![Online Store Architecture Diagram](https://github.com/cwdgit/springcloud-demo/blob/master/img/登录成功.png)
